@@ -1,5 +1,6 @@
-import React from 'react-native';
-const {PixelRatio, Navigator, Dimensions} = React;
+import React from 'react'
+import {PixelRatio, Navigator, Dimensions} from 'react-native';
+
 import buildStyleInterpolator from 'react-native/Libraries/Utilities/buildStyleInterpolator';
 
 var NoTransition = {

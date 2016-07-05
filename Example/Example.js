@@ -1,7 +1,8 @@
 'use strict';
 
-var React = require('react-native');
-var {AppRegistry, Navigator, StyleSheet,Text,View} = React;
+var React = require('react');
+var ReactNative = require('react-native');
+var {AppRegistry, Navigator, StyleSheet,Text,View} = ReactNative;
 var Launch = require('./components/Launch');
 var Register = require('./components/Register');
 var Login = require('./components/Login');

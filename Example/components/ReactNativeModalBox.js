@@ -1,7 +1,8 @@
 'use strict';
 
-var React = require('react-native');
-var {View, Text, StyleSheet} = React;
+var React = require('react');
+var ReactNative = require('react-native');
+var {View, Text, StyleSheet} = ReactNative;
 var Button = require('react-native-button');
 var Actions = require('react-native-router-flux').Actions;
 
@@ -20,8 +21,8 @@ class ReactNativeModalBox extends React.Component {
         return (
             <Modal  animationDuration={200}
                     swipeThreshold={100}
-                    style={styles.modal} 
-                    position={"center"} 
+                    style={styles.modal}
+                    position={"center"}
                     isOpen={this.state.isOpen}
                     onClosed={Actions.dismiss}>
                 <Text style={styles.text}>

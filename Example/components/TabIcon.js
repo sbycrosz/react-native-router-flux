@@ -1,7 +1,8 @@
 'use strict';
 
-var React = require('react-native');
-var {View, Text, StyleSheet} = React;
+var React = require('react');
+var ReactNative = require('react-native');
+var {View, Text, StyleSheet} = ReactNative;
 
 class TabIcon extends React.Component {
     render(){

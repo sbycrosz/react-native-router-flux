@@ -6,9 +6,10 @@
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
-    "react-native": "^0.20.0",
+    "react": "^15.1.0",
+    "react-native": "^0.28.0",
     "react-native-button": "^1.2.1",
-    "react-native-router-flux": "^2.3.13",
+    "react-native-router-flux": "sbycrosz/react-native-router-flux#7b1792d8ca16e2a166da02bf540f0418cd811a26",
     "react-native-modalbox": "^1.3.0",
     "react-redux": "^4.4.0",
     "redux": "^3.3.1"

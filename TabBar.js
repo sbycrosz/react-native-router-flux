@@ -1,5 +1,6 @@
-import React from 'react-native'
-const {View, InteractionManager} = React;
+import React from 'react'
+import {View, InteractionManager} from 'react-native';
+
 import Tabs from 'react-native-tabs';
 
 import Actions from './Actions';

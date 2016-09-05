@@ -7,10 +7,12 @@
  *
  */
 
-import React from 'react-native'
+import React from 'react'
+import {StyleSheet, View} from 'react-native';
+
 import BaseRouter from './BaseRouter';
 import ExRouter from './ExRouter';
-const {StyleSheet, View} = React;
+
 import debug from './debug';
 import Actions from './Actions';
 export default class Router extends React.Component {

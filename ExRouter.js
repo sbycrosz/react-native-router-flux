@@ -1,4 +1,6 @@
-import React from 'react-native';
+import React from 'react';
+import {TouchableOpacity, Navigator, StyleSheet, View, Text} from 'react-native';
+
 import BaseRouter from './BaseRouter';
 import Route from './Route';
 import * as Components from './Common';
@@ -6,7 +8,6 @@ import ExNavigator from '@exponent/react-native-navigator';
 import ExNavigatorStyles from '@exponent/react-native-navigator/ExNavigatorStyles';
 import { BackIcon } from '@exponent/react-native-navigator/ExNavigatorIcons';
 import Animations from './Animations';
-const {TouchableOpacity, Navigator, StyleSheet, View, Text} = React;
 import Router from './Router';
 import Actions from './Actions';
 import debug from './debug';

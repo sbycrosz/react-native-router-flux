@@ -1,4 +1,4 @@
-import React from 'react-native';
+import React from 'react';
 
 // schema class represents schema for routes and it is processed inside Router component
 export class Schema extends React.Component {
@@ -20,4 +20,3 @@ export class Route extends React.Component {
     }
 
 }
-

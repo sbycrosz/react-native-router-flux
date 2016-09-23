@@ -37,6 +37,6 @@
     "@exponent/react-native-action-sheet": "0.2.1",
     "@exponent/react-native-navigator": "0.4.8",
     "react-native-tabs": "1.0.9",
-    "react": "~15.2.1"
+    "react": "^15.2.1"
   }
 }
